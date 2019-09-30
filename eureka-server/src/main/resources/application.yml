@@ -1,0 +1,6 @@
+server:
+  port: 8700
+  
+eureka:  client:    service-url:      defaultZone: http://localhost:8700/eureka/
+
+spring:  application:    name: student-service
