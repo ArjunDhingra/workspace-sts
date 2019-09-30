@@ -1,0 +1,8 @@
+security:
+  oauth2:
+    client:
+      access-token-uri: http://localhost:7070/authserver/oauth.token
+      user-authorization-uri: http://localhost:7070/authserver/oauth/authorize
+      client-id: authserver
+      client-secret: passwordforauthserver
+    resource:      user-info-uri: http://localhost:9000/user
